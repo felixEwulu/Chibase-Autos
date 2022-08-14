@@ -131,7 +131,7 @@ input {
 
  .section__subtitle {
    display: block;
-   font-size: var(--smaller-fs);
+   font-size: var(--h3-fs);
    color: var(--text-color);
    margin-bottom: 2rem;
  }
@@ -523,11 +523,44 @@ input {
 }
 
 
+.footer{
+  background-color: rgba(247, 249, 252, 0.8);
+  margin-top: 3.5rem;
+}
 
+.footer__container{
+  display: grid;
+ row-gap: 2rem;
+ padding: 2.5rem 0;
 
+}
+.footer__column{
+  display: grid;
+  row-gap: 1.5rem;
+  margin-bottom: 1.7rem;
+}
 
+.footer__container h4{
+  font-size: var(--h3-fs);
+  margin-bottom: .75rem;
+}
 
+.footer__container a {
+  color: var(--title-color);
+  cursor: pointer;
+}
+.footer__follow i {
+  font-size: var(--normal-fs);
+  padding-right: .6rem;
+  cursor: pointer;
+}
 
+.footer__copyright{
+  text-align: center;
+  font-size: var(--normal-fs);
+  color: var(--title-color);
+  
+}
 
 
 
