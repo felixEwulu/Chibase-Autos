@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+     <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Home</title>
 </head>
@@ -29,13 +32,18 @@
                 </li>
             </ul>
 
-            <i class="fas fa-x nav__close" id="nav-close"></i>
+            <i class="fas fa-times nav__close" id="nav-close"></i>
 
         </div>
 
+        <div class="contact">
+            <a href="" class="contact__box"><i class="fas fa-phone-alt contact__icon"></i>
+            <span class="call-us">Call Us</span> </a>
+        </div>
+
           <div class="nav__toggle" id="nav-toggle">
-                <i class="fas fa-outdent"></i>
-                <span class="menu-tag">Menu</span>
+                <i class="fas fa-bars nav__icon"></i>
+                
             </div>
 
     </nav>
@@ -62,144 +70,238 @@
     </section>
 
     <!-- Introduction -->
-    <section class="introduction__container container">
-        <h1 class="intro__title">Get The Best Value For Your Money</h1>
-        <div class="introduction__grid">
-            <div class="introduction__card">
+    <section class="intro section">
+        <h1 class="section__title">Get The Best Value For Your Money</h1>
+        <div class="intro__container container grid">
+            <div class="intro__card grid">
                 <i class="fas fa-star intro__icon"></i>
-                <div class="introduction__content">
-                    <h3 class="introduction__title">Quality</h3>
-                    <h4 class="introduction__subtitle">Affordable Prices</h4>
+                <div class="intro__content">
+                    <h3 class="intro__title">Quality</h3>
+                    <h4 class="intro__subtitle">Affordable Prices</h4>
                 </div>
             </div>
-            <div class="introduction__card">
+            <div class="intro__card grid">
                 <i class="fas fa-wallet intro__icon"></i>
-                <div class="introduction__content">
-                    <h3 class="introduction__title">Competitive</h3>
-                    <h4 class="introduction__subtitle">Products & Service</h4>
+                <div class="intro__content">
+                    <h3 class="intro__title">Competitive</h3>
+                    <h4 class="intro__subtitle">Products & Service</h4>
                 </div>
             </div>
-            <div class="introduction__card">
+            <div class="intro__card grid">
                 <i class="fas fa-cart-plus intro__icon"></i>
-                <div class="introduction__content">
-                    <h3 class="introduction__title">Wide Choices</h3>
-                    <h4 class="introduction__subtitle">100+ Items Available</h4>
+                <div class="intro__content">
+                    <h3 class="intro__title">Wide Choices</h3>
+                    <h4 class="intro__subtitle">100+ Items Available</h4>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- =================== PRODUCTS ================= -->
-    <section class="products container">
-        <h2 class="products__title">Product categories</h2>
+    <section class="products container section">
+        <h2 class="section__title">Product Categories</h2>
+        <h3 class="section__subtitle">View a selection of our most popular Car Auto Parts</h3>
 
-        <div class="products__container ">
+        <div class="products__container grid">
             <div class="product__item">
                 <img src="./images/pimp_202(1).PNG" alt="" class="product__img product__pump">
-               <div class="product__tag">Fuel Pumps</div>
+               <div class="product__description" >
+                <a href="#" class="product__name product__water">Fuel Pumps</a>
+                
+                <i class="fas fa-chevron-right products__icon"></i>
+            </div>
             </div>
 
             <div class="product__item">
-                <img src="./images/wp099(1).PNG" alt="" class="product__img">
-                <div class="product__tag">Water Pumps</div>
+                <img src="./images/water-pump01.jpg" alt="" class="product__img">
+                <div class="product__description" >
+                <a href="#" class="product__name products__water">Water Pumps</a>
+                
+                <i class="fas fa-chevron-right products__icon"></i>
+            </div>
             </div>
 
             <div class="product__item">
                 <img src="./images/a_solite.GIF" alt="" class="product__img">
-                <div class="product__tag">Batteries</div>
+                 <div class="product__description" >
+                <a href="#" class="product__name products__water">Batteries</a>
+                
+                <i class="fas fa-chevron-right products__icon"></i>
+            </div>
             </div>
 
             <div class="product__item">
                 <img src="./images/tie_rod_end_2002-2006_right_outer_camry.png" alt="" class="product__img">
-                <div class="product__tag">Tie-rod ends</div>
+                 <div class="product__description" >
+                <a href="#" class="product__name products__water">Tie-rod ends</a>
+                
+                <i class="fas fa-chevron-right products__icon"></i>
+            </div>
             </div>
 
             <div class="product__item">
                 <img src="./images/land_cruser_stabilizer_likage_front_08-16.png" alt="" class="product__img">
-                <div class="product__tag">Linkage</div>
+                   <div class="product__description" >
+                <a href="#" class="product__name products__water">Linkage</a>
+                
+                <i class="fas fa-chevron-right products__icon"></i>
+            </div>
             </div>
 
             <div class="product__item">
-                <img src="./images/GX_460_water_pump.PNG" alt="" class="product__img">
-                <div class="product__tag">Water Pump</div>
+                <img src="./images/tundra_ball_joint_2000-2006nugu_igyfcxsdx4yt5cecy.png" alt="" class="product__img">
+                   <div class="product__description" >
+                <a href="#" class="product__name products__water">Ball Joints</a>
+                
+                <i class="fas fa-chevron-right products__icon"></i>
+            </div>
             </div>
         </div>
         
         <div class="divider"></div>
     </section>
 
+    <!-- ================= SERVICES =================== -->
+    <section class="services">
+        <h2 class="section__title services__title">Our Services</h2>
+
+        <div class="services__container container">
+          <div class="services__content">
+            <div class="services__data">
+                <i class="fas fa-check-circle services__icon"></i>
+                <div>
+                    <h3 class="services__name">General Auto Parts Production & Importation From China</h3>
+                    <span class="services__subtitle"><strong>For Individuals and Companies</strong> </span>
+                </div>
+            </div>
+            
+            <div class="services__data">
+                <i class="fas fa-check-circle services__icon"></i>
+                <div>
+                    <h3 class="services__name">General Trading/Dealers of High Quality <strong class="str_tag">Japanese</strong>  Auto Parts.</h3>
+                </div>
+            </div>
+
+            <a href="#" class="services__btn">Contact Us</a>
+
+          </div>  
+
+        </div>
+    </section>
+
 
     <!-- =================== MORE CATEGORIES ================= -->
     <section class="products container">
-        <h2 class="products__title">More Categories</h2>
+        <h2 class="section__title">More Categories</h2>
 
-        <div class="products__container ">
+        <div class="products__container grid">
             <div class="product__item">
-                <img src="./images/ball_joint_4runner_2001.PNG" alt="" class="product__img product__pump">
-               <div class="product__tag">Ball Joints</div>
+                <img src="./images/shock-absorber.jpg" alt="" class="product__img">
+                <div class="product__description" >
+                <a href="#" class="product__name products__water">Shock Absorber</a>
+                
+                <i class="fas fa-chevron-right products__icon"></i>
+            </div>
+                
             </div>
 
             <div class="product__item">
                 <img src="./images/brake_pad_front.jpg" alt="" class="product__img">
-                <div class="product__tag">Brake Pads</div>
+                <div class="product__description" >
+                <a href="#" class="product__name products__water">Brake Pads</a>
+                
+                <i class="fas fa-chevron-right products__icon"></i>
+            </div>
             </div>
 
             <div class="product__item">
                 <img src="./images/4runner_2004_rear_disc.PNG" alt="" class="product__img">
-                <div class="product__tag">Brake Discs</div>
+                <div class="product__description" >
+                <a href="#" class="product__name products__water">Brake Discs</a>
+                
+                <i class="fas fa-chevron-right products__icon"></i>
+            </div>
             </div>
 
             <div class="product__item">
-                <img src="./images/tie_rod_end_2002-2006_right_outer_camry.png" alt="" class="product__img">
-                <div class="product__tag">Shock Absorber</div>
+                <img src="./images/gas-pump.jpg" alt="" class="product__img">
+                <div class="product__description" >
+                <a href="#" class="product__name products__water">Gas Pumps</a>
+                
+                <i class="fas fa-chevron-right products__icon"></i>
             </div>
 
-            <div class="product__item">
-                <img src="./images/stabilizer_linkage.jpg" alt="" class="product__img">
-                <div class="product__tag">Linkage</div>
             </div>
 
-            <div class="product__item">
-                <img src="./images/GX_460_water_pump.PNG" alt="" class="product__img">
-                <div class="product__tag">Water Pump</div>
-            </div>
+            <a href="#" class="btn">
+                See more
+            </a>
         </div>
 
         <div class="divider"></div>
     </section>
 
     <!--================== NEW ARRIVALS ==================-->
-    <section class="container">
-        <h3>NEW ARRIVALS</h3>
-        <div class="arrivals__container">
-           <img src="" alt="" class="arrivals__img"> 
-           <p>
-            
-           </p>
+ <!--    <section class="new-arrivals section">
+        <h3 section__title>New Arrivals</h3>
+
+        <div class="new__container container">
+            <div class="swiper new-swiper">
+                <div class="swiper-wrapper">
+                    
+                    <div class="new__content swiper-slide">
+                        <img src="./images/tundra_ball_joint_2000-2006nugu_igyfcxsdx4yt5cecy.png" alt="" class="new__img">
+                        <h3 class="new__title">Toyota</h3>
+                        <span class="new__subtitle"></span>
+
+                        <div class="new__prices">
+                            <span class="new__prices">$5</span>
+                        </div>
+
+                        <a href="#" class="button new__button">Buy Now</a>
+                    </div>
+                    
+                    <div class="new__content swiper-slide">
+                        <img src="./images/tundra_ball_joint_2000-2006nugu_igyfcxsdx4yt5cecy.png" alt="" class="new__img">
+                        <h3 class="new__title">Toyota</h3>
+                        <span class="new__subtitle"></span>
+
+                        <div class="new__prices">
+                            <span class="new__prices">$5</span>
+                        </div>
+
+                        <a href="#" class="button new__button">Buy Now</a>
+                    </div>
+                    
+                    <div class="new__content swiper-slide">
+                        <img src="./images/tundra_ball_joint_2000-2006nugu_igyfcxsdx4yt5cecy.png" alt="" class="new__img">
+                        <h3 class="new__title">Toyota</h3>
+                        <span class="new__subtitle"></span>
+
+                        <div class="new__prices">
+                            <span class="new__prices">$5</span>
+                        </div>
+
+                        <a href="#" class="button new__button">Buy Now</a>
+                    </div>
+                    
+                    <div class="new__content swiper-slide">
+                        <img src="./images/tundra_ball_joint_2000-2006nugu_igyfcxsdx4yt5cecy.png" alt="" class="new__img">
+                        <h3 class="new__title">Toyota</h3>
+                        <span class="new__subtitle"></span>
+
+                        <div class="new__prices">
+                            <span class="new__prices">$5</span>
+                        </div>
+
+                        <a href="#" class="button new__button">Buy Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="arrivals__container">
-           <img src="" alt="" class="arrivals__img"> 
-           <p>
-
-           </p>
-        </div>
-
-        <div class="arrivals__container">
-           <img src="" alt="" class="arrivals__img"> 
-           <p>
-
-           </p>
-        </div>
-
-        <div class="arrivals__container">
-           <img src="" alt="" class="arrivals__img"> 
-           <p>
-
-           </p>
-        </div>
+   
     </section>
-
+ -->
     <!-- ================== BEST SELLING ==================== -->
     <section class="best-brands">
         <h3>BEST SELLING BRANDS</h3>
@@ -248,7 +350,8 @@
 
   </footer>
 
-
-  <script src="./main.js"></script>
+  
+  <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
